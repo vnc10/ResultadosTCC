@@ -80,11 +80,4 @@ public class QueueTest {
         assertEquals(1, f.head());
 //        assertEquals(4, f.rear());
     }
-//
-//    @Test(timeout = 4000)
-//    public void TestQueue197_08() throws Throwable {
-//        Queue f = new Queue();
-//
-//        assertEquals(-1, f.head());
-//    }
 }

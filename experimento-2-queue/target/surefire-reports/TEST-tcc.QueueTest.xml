@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="tcc.QueueTest" time="0.041" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="tcc.QueueTest" time="0.038" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.11+9-LTS"/>
@@ -65,16 +65,16 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="tcc.QueueTest" name="TestQueue01021997_01" time="0.02"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue01021997_03" time="0.003"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue01021997_01" time="0.023"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue01021997_03" time="0.002"/>
   <testcase classname="tcc.QueueTest" name="TestQueue14_02" time="0.001"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue14_03" time="0.001"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue14_05" time="0"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue14_03" time="0"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue14_05" time="0.001"/>
   <testcase classname="tcc.QueueTest" name="TestQueue14_06" time="0"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue197_01" time="0.001"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue197_02" time="0.012"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue197_03" time="0"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue197_05" time="0.001"/>
-  <testcase classname="tcc.QueueTest" name="TestQueue197_07" time="0"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue197_01" time="0"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue197_02" time="0.006"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue197_03" time="0.002"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue197_05" time="0"/>
+  <testcase classname="tcc.QueueTest" name="TestQueue197_07" time="0.001"/>
   <testcase classname="tcc.QueueTest" name="TestQueue517_01" time="0.002"/>
 </testsuite>

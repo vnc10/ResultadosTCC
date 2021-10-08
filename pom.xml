@@ -75,8 +75,9 @@
         <module>experimento-1-bubblesort-aluno03</module>
         <module>experimento-2-queue</module>
         <module>experimento-2-queue-aluno01</module>
-        <module>experimento-2-queue-aluno02</module>
+        <module>experimento-2-queue-aluno02-b</module>
         <module>experimento-2-queue-aluno03</module>
+        <module>experimento-2-queue-aluno03-b</module>
         <module>experimento-2-queue-aluno04</module>
     </modules>
 </project>

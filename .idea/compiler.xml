@@ -7,19 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="experimento-1-bubblesort (3)" />
-        <module name="experimento-2-queue-aluno02" />
         <module name="experimento-2-queue-aluno01" />
         <module name="experimento-2-queue-aluno04" />
         <module name="experimento-2-queue-aluno03" />
         <module name="experimento-1-bubblesort" />
         <module name="experimento-2-queue" />
         <module name="experimento-1-bubblesort (1)" />
+        <module name="experimento-2-queue-aluno02-b" />
         <module name="experimento-1-bubblesort (2)" />
+        <module name="experimento-2-queue-aluno03-b" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="experimento-1-bubblesort (4)" target="11" />
       <module name="experimento-1-bubblesort (5)" target="11" />
+      <module name="experimento-2-queue-aluno02" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
