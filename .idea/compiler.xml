@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codigo-bubblesort-aluno03" />
+        <module name="codigo-queue-aluno6" />
         <module name="codigo-queue-aluno05" />
         <module name="codigo-bubblesort-aluno01" />
         <module name="codigo-queue-aluno07" />
