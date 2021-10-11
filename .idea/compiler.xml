@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codigo-bubblesort-aluno03" />
+        <module name="codigo-queue-aluno05" />
         <module name="codigo-bubblesort-aluno01" />
+        <module name="codigo-queue-aluno07" />
         <module name="experimento-1-bubblesort (1)" />
         <module name="experimento-1-bubblesort (2)" />
         <module name="experimento-1-bubblesort (3)" />
@@ -18,15 +20,20 @@
         <module name="experimento-2-queue" />
         <module name="experimento-2-queue-aluno02-b" />
         <module name="codigo-bubblesort-aluno07" />
+        <module name="codigo-queue-aluno02" />
         <module name="experimento-2-queue-aluno03-b" />
         <module name="codigo-bubblesort-aluno06" />
+        <module name="codigo-queue-aluno01" />
         <module name="codigo-bubblesort-aluno05" />
+        <module name="codigo-queue-aluno04" />
         <module name="codigo-bubblesort-aluno04" />
         <module name="codigo-bubblesort-aluno2" />
+        <module name="codigo-queue-aluno03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="codigo-bubblesort-aluno02" target="11" />
+      <module name="codigo-queue-aluno06" target="11" />
       <module name="experimento-1-bubblesort (4)" target="11" />
       <module name="experimento-1-bubblesort (5)" target="11" />
       <module name="experimento-2-queue-aluno02" target="11" />
