@@ -69,6 +69,14 @@
         </dependency>
     </dependencies>
     <modules>
+        <module>codigo-bubblesort-aluno01</module>
+        <module>codigo-bubblesort-aluno2</module>
+        <module>codigo-bubblesort-aluno03</module>
+        <module>codigo-bubblesort-aluno04</module>
+        <module>codigo-bubblesort-aluno05</module>
+        <module>codigo-bubblesort-aluno06</module>
+        <module>codigo-bubblesort-aluno07</module>
+
         <module>experimento-1-bubblesort</module>
         <module>experimento-1-bubblesort-aluno01</module>
         <module>experimento-1-bubblesort-aluno02</module>

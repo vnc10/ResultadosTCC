@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/codigo-bubblesort-aluno02/pom.xml" />
         <option value="$PROJECT_DIR$/experimento-1-bubblesort-aluno04/pom.xml" />
         <option value="$PROJECT_DIR$/experimento-1-bubblesort-aluno05/pom.xml" />
         <option value="$PROJECT_DIR$/experimento-2-queue-aluno02-a/pom.xml" />
