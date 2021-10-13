@@ -13,55 +13,36 @@ public class Queue {
      * Remove um elemento do começo da fila
      */
     public int dequeue() {
-        if(isEmpty()){
-            return -1;
-        }
-        else{
-            Node aux = front;
-            front = front.next;
-
-            return aux.item;
-        }
+        Node aux = this.front;
+        this.front = this.front.next;
+        aux = null;
+        return 1;
     }
 
     /**
-     * Insere um elemento no fim da fila
+     * Insere um elemento no final da fila
      */
     public void enqueue(int item) {
-        Node newElem = new Node();
-        newElem.item = item;
-        newElem.next = null;
-
-        if(front == null){
-            front = newElem;
-            back = newElem;
-        }
-        else{
-            back.next = newElem;
-            back = newElem;
-        }
+        this.back.next = new Node();
+        this.back.next.item = item;
+        this.back.next.next = null;
+        this.back = this.back.next;
     }
 
     /**
      * Retorna o primeiro elemento da fila
      */
     public int head() {
-        if(isEmpty()){
-            return -1;
-        }
-        else{
-            return front.item;
-        }
+        return this.front.item;
     }
 
     /**
      * Verifica se a fila está vazia
      */
     public boolean isEmpty() {
-        if(front == null){
+        if(this.front == null && this.back == null){
             return true;
-        }
-        else{
+        } else {
             return false;
         }
     }
