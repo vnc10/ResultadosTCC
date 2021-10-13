@@ -7,28 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codigo-bubblesort-aluno03" />
-        <module name="codigo-queue-aluno6" />
         <module name="codigo-queue-aluno05" />
         <module name="codigo-bubblesort-aluno01" />
         <module name="codigo-queue-aluno07" />
         <module name="experimento-1-bubblesort (1)" />
-        <module name="experimento-1-bubblesort (2)" />
-        <module name="experimento-1-bubblesort (3)" />
         <module name="experimento-2-queue-aluno01" />
         <module name="experimento-2-queue-aluno04" />
+        <module name="codigo-bubblesort-aluno01-outra" />
         <module name="experimento-2-queue-aluno03" />
+        <module name="experimento-2-queue-aluno02-b" />
+        <module name="experimento-2-queue-aluno03-b" />
+        <module name="codigo-bubblesort-aluno2" />
+        <module name="codigo-queue-aluno6" />
+        <module name="experimento-1-bubblesort (2)" />
+        <module name="experimento-1-bubblesort (3)" />
         <module name="experimento-1-bubblesort" />
         <module name="experimento-2-queue" />
-        <module name="experimento-2-queue-aluno02-b" />
         <module name="codigo-bubblesort-aluno07" />
         <module name="codigo-queue-aluno02" />
-        <module name="experimento-2-queue-aluno03-b" />
         <module name="codigo-bubblesort-aluno06" />
         <module name="codigo-queue-aluno01" />
         <module name="codigo-bubblesort-aluno05" />
         <module name="codigo-queue-aluno04" />
         <module name="codigo-bubblesort-aluno04" />
-        <module name="codigo-bubblesort-aluno2" />
         <module name="codigo-queue-aluno03" />
       </profile>
     </annotationProcessing>

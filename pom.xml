@@ -70,6 +70,7 @@
     </dependencies>
     <modules>
         <module>codigo-bubblesort-aluno01</module>
+        <module>codigo-bubblesort-aluno01-outra</module>
         <module>codigo-bubblesort-aluno2</module>
         <module>codigo-bubblesort-aluno03</module>
         <module>codigo-bubblesort-aluno04</module>

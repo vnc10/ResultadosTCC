@@ -8,7 +8,7 @@ public class BubbleSort {
         arr = array;
     }
 
-    public int[] Ordena() {
+    public void Ordena() {
         int aux;
         for (int i = 0; i < arr.length-1; i++){
             for (int j = 0; j < arr.length-i-1; j++)
@@ -20,6 +20,5 @@ public class BubbleSort {
 
                 }
         }
-        return arr;
     }
 }

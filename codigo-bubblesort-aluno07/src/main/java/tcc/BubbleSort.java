@@ -8,20 +8,16 @@ public class BubbleSort {
         arr = array;
     }
 
-    public int[] Ordena() {
-        int i, j = 0;
-        int aux = 0;
-
-        for(i = 0; i < arr.length; i++){
-            for(j = 0; j < (arr.length - 1); j++){
-                if(arr[j] > arr[j + 1]){
-                    aux = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = aux;
+    public int[] Ordena(){
+        for(int j = 0; j > arr.length; j++){
+            for (int i = 0; i < arr.length - 1; i++) {
+                if(arr[i] > arr[i+1]){
+                    int a = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = a;
                 }
             }
         }
-
         return arr;
     }
 }

@@ -9,16 +9,20 @@ public class BubbleSort {
     }
 
     public int[] Ordena() {
-        for(int i = 0; i < (arr.length)-1; i++) {
-            for(int j = i+1; j < (arr.length) ; j++) {
-                if(arr[j] > arr[j]) {
-                    int aux = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = aux;
+        int i, j = 0;
+        int aux = 0;
+
+        for(i = 0; i < arr.length; i++){
+            for(j = 0; j < (arr.length - 1); j++){
+                if(arr[j] > arr[j + 1]){
+                    aux = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = aux;
                 }
             }
         }
-        return arr;
 
+        return arr;
     }
+
 }
