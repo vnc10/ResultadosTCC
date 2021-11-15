@@ -43,7 +43,7 @@ public class Queue {
      */
     public int head() {
         if (isEmpty()) {
-            return 0;
+            return -1;
         }
         return font.item;
     }

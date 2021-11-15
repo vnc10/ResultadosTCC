@@ -39,4 +39,12 @@ public class QueueTest {
         Queue queue = new Queue();
         assertEquals(-1, queue.head());
     }
+
+    @Test(timeout = 4000)
+    public void testDequeue() {
+        Queue queue = new Queue();
+        queue.enqueue(3);
+        queue.enqueue(5);
+        assertEquals(3, queue.dequeue());
+    }
 }

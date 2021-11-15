@@ -8,10 +8,10 @@ import static junit.framework.TestCase.*;
 
 public class QueueTest {
 
-//    @Test(timeout = 4000)
-//    public void TestQueue197_08() throws Throwable {
-//        Queue f = new Queue();
-//
-//        assertEquals(-1, f.head());
-//    }
+    @Test(timeout = 4000)
+    public void TestQueue197_09() throws Throwable {
+        Queue f = new Queue();
+
+        assertEquals(-1, f.head());
+    }
 }

@@ -28,31 +28,31 @@
      * Inseri um elemento no fim da fila
      */
     public void enqueue(int item) {
-<span class="fc" id="L31">        Node oldback = back;</span>
-<span class="fc" id="L32">        back = new Node();</span>
-<span class="fc" id="L33">        back.item = item;</span>
-<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (isEmpty()) {</span>
-<span class="fc" id="L35">            font = back;</span>
+<span class="nc" id="L31">        Node oldback = back;</span>
+<span class="nc" id="L32">        back = new Node();</span>
+<span class="nc" id="L33">        back.item = item;</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">        if (isEmpty()) {</span>
+<span class="nc" id="L35">            font = back;</span>
         } else {
-<span class="fc" id="L37">            oldback.next = back;</span>
+<span class="nc" id="L37">            oldback.next = back;</span>
         }
-<span class="fc" id="L39">    }</span>
+<span class="nc" id="L39">    }</span>
 
     /**
      * Retorna o primeiro elemento da fila
      */
     public int head() {
-<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (isEmpty()) {</span>
-<span class="fc" id="L46">            return 0;</span>
+<span class="pc bpc" id="L45" title="1 of 2 branches missed.">        if (isEmpty()) {</span>
+<span class="fc" id="L46">            return -1;</span>
         }
-<span class="fc" id="L48">        return font.item;</span>
+<span class="nc" id="L48">        return font.item;</span>
     }
 
     /**
      * Verifica se a fila está vazia
      */
     public boolean isEmpty() {
-<span class="fc bfc" id="L55" title="All 2 branches covered.">        return font == null;</span>
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">        return font == null;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

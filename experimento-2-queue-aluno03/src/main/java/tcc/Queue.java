@@ -1,7 +1,7 @@
 package tcc;
 
 public class Queue {
-    private Node font = null;
+    private Node front = null;
     private Node back = null;
 
     private static class Node {
@@ -10,31 +10,32 @@ public class Queue {
     }
 
     /**
-     * Remove um elemento no começo da fila
+     * Remove um elemento do começo da fila
      */
     public int dequeue() {
-        if (isEmpty()) {
-            return 0;
+        if (front == null) {
+            return -1;
+        } else {
+            Node aux = front;
+            front = front.next;
+
+            return aux.item;
         }
-        int item = font.item;
-        if (font == back) {
-            back = back.next;
-        }
-        font = font.next;
-        return item;
     }
 
     /**
-     * Inseri um elemento no fim da fila
+     * Insere um elemento no fim da fila
      */
     public void enqueue(int item) {
-        Node oldback = back;
-        back = new Node();
-        back.item = item;
-        if (isEmpty()) {
-            font = back;
+        Node novo = new Node();
+        novo.item = item;
+        novo.next = null;
+
+        if (front == null) {
+            front = back = novo;
         } else {
-            oldback.next = back;
+            back.next = novo;
+            back = novo;
         }
     }
 
@@ -42,16 +43,30 @@ public class Queue {
      * Retorna o primeiro elemento da fila
      */
     public int head() {
-        if (isEmpty()) {
-            return 0;
+        if (front == null) {
+            return -1;
         }
-        return font.item;
+        return front.item;
+    }
+
+    /**
+     * Retorna o ultimo elemento da fila
+     */
+    public int rear() {
+        if (back == null) {
+            return -1;
+        }
+        return back.item;
     }
 
     /**
      * Verifica se a fila está vazia
      */
     public boolean isEmpty() {
-        return font == null;
+        if (front == null) {
+            return true;
+        }
+        return false;
     }
 }
+

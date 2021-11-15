@@ -41,8 +41,15 @@ public class QueueTest {
         assertEquals(isEmpty,true);
     }
 
+//    @Test(timeout = 4000)
+//    public void TestQueue14_06() throws Throwable {
+//        Queue queue = new Queue();
+//        int head = queue.head();
+//        assertEquals(head,10);
+//    }
+
     @Test(timeout = 4000)
-    public void TestQueue14_06() throws Throwable {
+    public void TestQueue14_07() throws Throwable {
         Queue queue = new Queue();
         int initValue = 34;
         queue.enqueue(initValue);
@@ -51,7 +58,7 @@ public class QueueTest {
     }
 
     @Test(timeout = 4000)
-    public void TestQueue14_07() throws Throwable {
+    public void TestQueue14_08() throws Throwable {
         Queue queue = new Queue();
         int initValue = 34;
         queue.enqueue(initValue);
@@ -61,7 +68,7 @@ public class QueueTest {
     }
 
 //    @Test(timeout = 4000)
-//    public void TestQueue14_08() throws Throwable {
+//    public void TestQueue14_09() throws Throwable {
 //        int initValue = 34;
 //        Queue queue = new Queue();
 //        queue.enqueue(initValue);

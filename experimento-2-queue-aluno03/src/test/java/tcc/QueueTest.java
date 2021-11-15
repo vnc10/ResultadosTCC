@@ -17,7 +17,7 @@ public class QueueTest {
         f.enqueue(4);
 
         assertEquals(1, f.head());
-        //assertEquals(4, f.rear());
+        assertEquals(4, f.rear());
     }
 
     @Test(timeout = 4000)
@@ -36,12 +36,12 @@ public class QueueTest {
         assertFalse(f.isEmpty());
     }
 
-//    @Test(timeout = 4000)
-//    public void TestQueue197_04() throws Throwable {
-//        Queue f = new Queue();
-//
-//        assertEquals(-1, f.head());
-//    }
+    @Test(timeout = 4000)
+    public void TestQueue197_04() throws Throwable {
+        Queue f = new Queue();
+
+        assertEquals(-1, f.head());
+    }
 
     @Test(timeout = 4000)
     public void TestQueue197_05() throws Throwable {
@@ -52,24 +52,24 @@ public class QueueTest {
         assertEquals(5, f.head());
     }
 
-//    @Test(timeout = 4000)
-//    public void TestQueue197_06() throws Throwable {
-//        Queue f = new Queue();
-//
-//        assertEquals(-1, f.rear());
-//    }
+    @Test(timeout = 4000)
+    public void TestQueue197_06() throws Throwable {
+        Queue f = new Queue();
 
-//    @Test(timeout = 4000)
-//    public void TestQueue197_07() throws Throwable {
-//        Queue f = new Queue();
-//
-//        f.enqueue(5);
-//
-//        assertEquals(5, f.rear());
-//    }
+        assertEquals(-1, f.rear());
+    }
 
     @Test(timeout = 4000)
     public void TestQueue197_07() throws Throwable {
+        Queue f = new Queue();
+
+        f.enqueue(5);
+
+        assertEquals(5, f.rear());
+    }
+
+    @Test(timeout = 4000)
+    public void TestQueue197_08() throws Throwable {
         Queue f = new Queue();
 
         f.enqueue(1);
@@ -78,6 +78,6 @@ public class QueueTest {
         f.enqueue(4);
 
         assertEquals(1, f.head());
-//        assertEquals(4, f.rear());
+        assertEquals(4, f.rear());
     }
 }

@@ -13,15 +13,15 @@
      * Remove um elemento no começo da fila
      */
     public int dequeue() {
-<span class="nc bnc" id="L16" title="All 2 branches missed.">        if (isEmpty()) {</span>
-<span class="nc" id="L17">            return 0;</span>
+<span class="fc bfc" id="L16" title="All 2 branches covered.">        if (isEmpty()) {</span>
+<span class="fc" id="L17">            return 0;</span>
         }
-<span class="nc" id="L19">        int item = font.item;</span>
-<span class="nc bnc" id="L20" title="All 2 branches missed.">        if (font == back) {</span>
-<span class="nc" id="L21">            back = back.next;</span>
+<span class="fc" id="L19">        int item = font.item;</span>
+<span class="pc bpc" id="L20" title="1 of 2 branches missed.">        if (font == back) {</span>
+<span class="fc" id="L21">            back = back.next;</span>
         }
-<span class="nc" id="L23">        font = font.next;</span>
-<span class="nc" id="L24">        return item;</span>
+<span class="fc" id="L23">        font = font.next;</span>
+<span class="fc" id="L24">        return item;</span>
     }
 
     /**
